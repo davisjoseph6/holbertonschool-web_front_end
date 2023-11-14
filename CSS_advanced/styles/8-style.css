@@ -39,6 +39,10 @@ a {
   min-height: calc(1em * var(--line-height-base)); /* Set the minimum height of line boxes */
 }
 
+body {
+  min-height: calc(var(--font-size-medium) * var(--line-height-base));
+}
+
 .visually-hidden {
   display: none;
 }
