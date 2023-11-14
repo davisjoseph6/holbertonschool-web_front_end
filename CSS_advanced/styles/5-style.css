@@ -1,3 +1,8 @@
+html {
+     scroll-behavior: smooth;
+     font-size: 62.5%;
+}
+
 :root {
     /* Define custom properties for font families */
   --color-primary: #d73953;
