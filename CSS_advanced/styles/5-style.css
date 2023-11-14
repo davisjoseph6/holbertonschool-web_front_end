@@ -15,7 +15,7 @@
   body {
     font-size: var(--font-size-medium); /* Set body font size to font-size-medium */
   }
-},
+}
 
 a {
   color: var(--text-color); /* Set foreground color to text-color */
