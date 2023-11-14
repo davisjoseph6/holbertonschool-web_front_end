@@ -1,53 +1,46 @@
 html {
-     scroll-behavior: smooth;
-     font-size: 62.5%;
-}
-
-:root {
-    /* Define custom properties for font families */
-  --color-primary: #d73953;
-  --color-black: #090909;
-  --color-white: #ffffff;
-  --color-light-grey: #f3f3f3;
-  --color-dark-grey: #353535;
-  --text-color: var(--color-black); /* Set text-color to color-black */
-  
-  /* Define font families */
-  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  
-  /* New font size custom properties */
+  font-size: 62.5%; /* Set base font size to 62.5% (equivalent to 10px assuming default browser font size is 16px) */
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
   --font-size-x-large: 2.3rem;
   --font-size-xx-large: 4.8rem;
-
-  /* Adjust font size for the html element */
-  font-size: 62.5%; /* 62.5% of the default font size (1rem = 10px) */
-
-  /* Adjust font size for body */
-  body {
-    font-size: var(--font-size-medium); /* Set body font size to font-size-medium */
-  }
+  /* Define other properties if needed */
+  
+  /* Scroll behavior */
+  scroll-behavior: smooth;
+  
+  /* Custom color definitions */
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+  
+  /* Font families */
+  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body,
 a {
-  color: var(--text-color); /* Set foreground color to text-color */
-  font-family: var(--font-family-base); /* Set body font family to font-family-base */
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium); /* Set font size for body to font-size-medium */
 }
 
 .visually-hidden {
-  display: none; /* Set display to none for elements with the class visually-hidden */
+  display: none;
 }
 
 .card-category,
 .section-tagline {
-  color: var(--color-primary); /* Reset color to color-primary */
+  color: var(--color-primary);
 }
 
-/* Targeting all heading tags from h1 to h6 */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title); /* Set font-family for all heading levels to font-family-title */
+  font-family: var(--font-family-title);
 }
+
+/* Additional styles or selectors can be added as needed */
