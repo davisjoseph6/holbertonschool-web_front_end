@@ -15,6 +15,23 @@
   body {
     font-size: var(--font-size-medium); /* Set body font size to font-size-medium */
   }
+},
+
+a {
+  color: var(--text-color); /* Set foreground color to text-color */
+  font-family: var(--font-family-base); /* Set body font family to font-family-base */
 }
 
-/* ... (existing CSS rules remain unchanged) */
+.visually-hidden {
+  display: none; /* Set display to none for elements with the class visually-hidden */
+}
+
+.card-category,
+.section-tagline {
+  color: var(--color-primary); /* Reset color to color-primary */
+}
+
+/* Targeting all heading tags from h1 to h6 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title); /* Set font-family for all heading levels to font-family-title */
+}
