@@ -1,0 +1,20 @@
+:root {
+  /* ... (existing custom properties) */
+  
+  /* New font size custom properties */
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 1.8rem;
+  --font-size-x-large: 2.3rem;
+  --font-size-xx-large: 4.8rem;
+
+  /* Adjust font size for the html element */
+  font-size: 62.5%; /* 62.5% of the default font size (1rem = 10px) */
+
+  /* Adjust font size for body */
+  body {
+    font-size: var(--font-size-medium); /* Set body font size to font-size-medium */
+  }
+}
+
+/* ... (existing CSS rules remain unchanged) */
