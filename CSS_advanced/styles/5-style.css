@@ -1,5 +1,15 @@
 :root {
-  /* ... (existing custom properties) */
+    /* Define custom properties for font families */
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black); /* Set text-color to color-black */
+  
+  /* Define font families */
+  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
   /* New font size custom properties */
   --font-size-small: 1.2rem;
