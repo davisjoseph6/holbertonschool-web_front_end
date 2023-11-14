@@ -17,6 +17,7 @@
   }
 }
 
+body,
 a {
   color: var(--text-color); /* Set foreground color to text-color */
   font-family: var(--font-family-base); /* Set body font family to font-family-base */
