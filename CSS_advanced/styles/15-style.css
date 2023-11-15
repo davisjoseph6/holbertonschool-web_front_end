@@ -1,9 +1,8 @@
-/* Universal box-sizing rule */
 * {
   box-sizing: border-box;
 }
 
-/* ... Rest of your existing styles ... */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
