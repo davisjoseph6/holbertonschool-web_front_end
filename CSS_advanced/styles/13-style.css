@@ -67,21 +67,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Target anchor elements containing a hyperlink */
-a[href]:link {
+a:link {
   /* Styling for regular, unvisited links */
 }
 
 /* Target the visited state for the link */
-a[href]:visited {
+a:visited {
   font-style: italic; /* Italicize the text */
 }
 
 /* Target the hover state for the link */
-a[href]:hover {
+a:hover {
   text-decoration: underline; /* Decorate the links with an underline when hovering */
 }
 
 /* Target the active state for the link */
-a[href]:active {
+a:active {
   background-color: var(--color-light-grey); /* Set the background color with the variable color-light-grey */
 }
