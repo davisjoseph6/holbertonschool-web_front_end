@@ -85,5 +85,3 @@ a[href]:hover {
 a[href]:active {
   background-color: var(--color-light-grey); /* Set the background color with the variable color-light-grey */
 }
-
-/* Rest of your CSS code */
