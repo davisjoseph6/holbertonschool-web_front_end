@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Target anchor elements containing a hyperlink */
 a:link {
-  /* Styling for regular, unvisited links */
+  font-style: italic; /* Styling for regular, unvisited links */
 }
 
 /* Target the visited state for the link */
