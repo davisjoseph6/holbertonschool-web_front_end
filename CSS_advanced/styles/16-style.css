@@ -215,6 +215,12 @@ html {
   --line-height-small: 1.2;
   --line-height-base: 1.5;
   --line-height-big: 1.8;
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+  --footer-padding: 5rem 0 1rem;
 
   /* New custom properties */
   --section-header-align: center;
@@ -231,11 +237,13 @@ html {
 
 .section-header {
   text-align: var(--section-header-align);
+  padding: var(--section-padding);
 }
 
 .card-category,
 .section-tagline {
   color: var(--color-primary);
+  padding: var(--section-padding);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -249,12 +257,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
   margin: var(--section-title-margin);
   color: var(--section-title-color);
+  padding: var(--section-padding);
 }
 
 .section-tagline {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
   text-transform: var(--section-tagline-transform);
+  padding: var(--section-padding);
 }
 
 .container {
@@ -281,4 +291,13 @@ a:hover {
 /* Target the active state for the link */
 a:active {
   background-color: var(--color-light-grey); /* Set the background color with the variable color-light-grey */
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+.footer {
+  padding: var(--footer-padding);
 }
